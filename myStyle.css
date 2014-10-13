@@ -1,29 +1,25 @@
-<style type="text/css">
 body{
-  background-color:#6969FF;
+  background-color:rgba(100, 103, 205, 0.87);
 }
 
 #thecat{
   border-radius: 50%;
   border-top: 20px dashed blue;
-  border-right: 30px solid red;
+  border-right: 30px #50921;
   border-bottom: 10px;
   border-left: 40px dashed papayawhip;
 }
 #swiggityswag{
   font-family:Impact;
   font-size:20px;
-  background-color:#6699FF;
+  background-color:#a667ff;
 }
 
 li{
-  color:papayawhip;
+  color:#6f094b;
 }
 
 .klas{
   background-image: url('http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg');
   font-family:"Comic Sans MS"
 }
-
-
-</style>
