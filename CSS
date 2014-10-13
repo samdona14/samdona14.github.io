@@ -1,7 +1,8 @@
-
-<html>
-
 <style type="text/css">
+body{
+  background-color:#6969FF;
+}
+
 #thecat{
   border-radius: 50%;
   border-top: 20px dashed blue;
@@ -26,18 +27,3 @@ li{
 
 
 </style>
-<img src="http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg" id="thecat" width=200 />
-<h1>Cupkake15</h1>
-
-<p id="swiggityswag">Hello my name is Cupkake15, I am a 15 year old Cupkake so dont eat me</p>
-<ol>Hello
-  <li>LIST</li>
-  <li>CATS</li>
-  <li>Ratcet cat math</li>
-  </ol>
-
-
-
-
-</body>
-</html>
