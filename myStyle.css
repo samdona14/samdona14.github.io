@@ -3,11 +3,9 @@ body{
 }
 
 #thecat{
-  border-radius: 50%;
-  border-top: 20px dashed blue;
-  border-right: 30px #50921;
-  border-bottom: 10px;
-  border-left: 40px dashed papayawhip;
+  border-radius:5%;
+  color:#1acaa7;
+  
 }
 #swiggityswag{
   font-family:Impact;
