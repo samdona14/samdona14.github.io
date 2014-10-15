@@ -1,16 +1,31 @@
-body{
-  background-color:rgba(100, 103, 205, 0.87);
+
+#container {
+	position: relative;
+	overflow: hidden;
 }
 
+.content {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+body{
+    background-color:rgba(97, 100, 147, 0.87);
+    text-align:center;
+}
+
+div{
+margin: 0 auto;
+}
 #thecat{
   border-radius:5%;
   color:#1acaa7;
-  
+  box-shadow: 1px 1px 5px 1px #dcb7d6
 }
-#swiggityswag{
+#p{
   font-family:Impact;
   font-size:20px;
-  background-color:#a667ff;
+    color:#006c61;
 }
 
 li{
@@ -20,4 +35,13 @@ li{
 .klas{
   background-image: url('http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg');
   font-family:"Comic Sans MS"
+}
+
+div p{
+  border-radius:7px;
+  margin:0 auto;
+  text-align:center;
+  width:100px;
+  height:20px;
+  background-color:#17c3b4;
 }

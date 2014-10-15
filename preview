@@ -1,0 +1,84 @@
+
+<html>
+
+
+<head>
+  <style>
+
+  #container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  body{
+      background-color:rgba(97, 100, 147, 0.87);
+      text-align:center;
+  }
+
+  div{
+  margin: 0 auto;
+  }
+  #thecat{
+    border-radius:5%;
+    color:#1acaa7;
+    box-shadow: 1px 1px 5px 1px #dcb7d6
+  }
+  #p{
+    font-family:Impact;
+    font-size:20px;
+      color:#006c61;
+  }
+
+  li{
+    color:#6f094b;
+  }
+
+  .klas{
+    background-image: url('http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg');
+    font-family:"Comic Sans MS"
+  }
+
+  div p{
+    border-radius:7px;
+    margin:0 auto;
+    text-align:center;
+    width:100px;
+    height:20px;
+    background-color:#17c3b4;
+  }
+</style>
+
+
+  <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<div id="container">
+  <video autoplay loop muted width:"200" height:"200">
+    <source src="sf.mp4" type="video/mp4">
+    <source src="sf.webm" type="video/webm">
+</video>
+  <div class="content">
+
+  </div>
+</div>
+<div id="cupkake">
+<img src="http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg" id="thecat" width=75 />
+</div>
+<h1>Cupkake15</h1>
+
+<p id="p">Hello my name is Cupkake15, I am a 15 year old Cupkake so dont eat me</p>
+<ol>Best video games
+  <li>BF4</li>
+  <li>Insurgency</li>
+  <li>Cat Math</li>
+  </ol>
+
+
+
+
+</body>
+</html>
