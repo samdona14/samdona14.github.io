@@ -1,0 +1,47 @@
+
+#preloader_1{
+    margin-bottom:10em;
+}
+#preloader_1 span{
+
+    display:block;
+    bottom:0px;
+    width: 9px;
+    left:40%;
+    height: 5px;
+    background:#b0db53;
+    position:absolute;
+    animation: preloader_1 1.5s  infinite ease-in-out;
+}
+
+#preloader_1 span:nth-child(2){
+left:42%;
+animation-delay: .2s;
+
+}
+#preloader_1 span:nth-child(3){
+left:44%;
+animation-delay: .4s;
+}
+#preloader_1 span:nth-child(4){
+left:46%;
+animation-delay: .6s;
+}
+#preloader_1 span:nth-child(5){
+left:48%;
+animation-delay: .8s;
+}
+
+@keyframes preloader_1 {
+    0% {height:5px;transform:translateY(0px);background:#ff0000;}
+    25% {height:30px;transform:translateY(15px);background:#ffb300;}
+    50% {height:5px;transform:translateY(0px);background:#eaff00;}
+    100% {height:5px;transform:translateY(0px);background:#e57350;}
+}
+
+#todo{
+width:50%;
+margin:auto;
+height: 15em;
+
+}

@@ -1,78 +1,39 @@
-
-
-#container {
-	position: relative;
-	overflow: hidden;
-	width:1000px;
+#vidcontainer{
+	align:center;
 }
 
-.content {
-	position: absolute;
-	top: 0;
-	left: 0;
-
-
-}
-body{
-    background-color:#ffffff;
-    text-align:center;
+#cupkake{
+	align:center;
 }
 
 h1{
-	color:#766653
+	text-align:center;
 }
-
-div{
-margin: 0 auto;
-}
-#cupkake{
-	align:center;
-	left:400px;
-	top:100px;
-}
-#thecat{
-  border-radius:5%;
-  color:#1acaa7;
-  box-shadow: 1px 1px 5px 1px #dcb7d6
+#sect{
 
 }
+
 #p{
-  font-family:Sans-Serif;
-  font-size:20px;
-    color:#4c4135;
+	color:darkgoldenrod;
+	text-align:center;
 }
-
-
-.klas{
-  background-image: url('http://www.shindigz.com/images/itm_img/11SZBLMSCC.jpg');
-  font-family:"Comic Sans MS"
-}
-
-#sect2{
-	background-color:#14618d
-
-
+#sect1{
+	background-color:#af7a4c;
+	border-radius:5%;
 }
 
 #p1{
-  border-radius:7px;
-  margin:0 auto;
-  text-align:center;
-  width:800px;
-  height:300px;
-  background-color:#5299c3;
+color:#f4a214;
+text-align:center;
 }
-#loremm{
-	position:relative;
-	align:center;
-	background-color:#28959f
+#sect2{
+	border-radius:5%;
+	background-color:#925e3c;
+	width:50%;
 
 }
-#lorem{
-	color:#844553
-}
+#p2{
+	color:#c76741;
+	text-align:center;
 
-#hual{
-	background-color:#ffffff;
-	border-radius:10px;
 }
